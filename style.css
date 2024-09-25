@@ -1,0 +1,98 @@
+body {
+    color: #282425;
+    background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #c68161;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    background-image: url("images/job_search_tips-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 15%;
+    padding-block: 200px;
+    color: rgb(35, 120, 119);
+    box-shadow: 10px 5px 5px #a9a3a1;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    font-style: italic;
+}
+
+.profile {
+    height: 400px;
+}
+
+.work {
+    height: 600px;
+}
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+.fotogalerie,
+.kontakt {
+    background-color: #f9e3d0;
+}
+
+section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e0af85;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navigation li:hover {
+    color: green;
+    background-color: purple;
+}
+
+.navigation a {
+    text-decoration: none;
+}
