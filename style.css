@@ -1,6 +1,6 @@
 body {
     color: #282425;
-    background-color: #fff1e6;
+    background-color: #8fdab2;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 1.5;
@@ -11,7 +11,7 @@ h1,
 h2,
 h3,
 a {
-    color: #c68161;
+    color: #ee9870;
 }
 
 h1,
@@ -48,11 +48,16 @@ a {
 }
 
 .profile {
-    height: 400px;
+    height: 300px;
+    float: right;
+    border-radius: 60px;
+
 }
 
 .work {
-    height: 600px;
+    height: 400px;
+    float: right;
+    border-radius: 30px;
 }
 
 /*
@@ -67,7 +72,7 @@ font-family: 'Playfair Display', serif;
 section {
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
 }
 
 ul {
@@ -79,7 +84,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #e0af85;
+    background-color: #35bc5dc4;
     text-align: center;
 }
 
@@ -89,10 +94,52 @@ ul {
 }
 
 .navigation li:hover {
-    color: green;
-    background-color: purple;
+    color: rgb(72, 174, 72);
+    background-color: rgb(159, 161, 219);
 }
 
 .navigation a {
     text-decoration: none;
+}
+
+.even {
+    float: right;
+}
+
+footer {
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    background-color: #ee9870c8;
+    color: rgb(72, 174, 72);
+}
+
+.profile-cat {
+    height: 300px;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.profile-board {
+    height: 350px;
+    float: inline-end;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.jazyk {
+    height: 250px;
+    float: right;
+    border-radius: 30px;
+}
+
+.about {
+    height: 400px;
+    float: left;
+    border-radius: 30px;
+}
+
+.osobni {
+    text-align: center;
+    line-height: 1.5;
 }
