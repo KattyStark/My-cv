@@ -31,6 +31,8 @@ h1 {
     padding-block: 200px;
     color: rgb(35, 120, 119);
     box-shadow: 10px 5px 5px #a9a3a1;
+    margin: 50px 0 0 0;
+    nav-index: 50px;
 }
 
 h2 {
@@ -51,7 +53,7 @@ a {
     height: 300px;
     float: right;
     border-radius: 60px;
-
+    margin-right: 80px;
 }
 
 .work {
@@ -73,6 +75,7 @@ section {
     max-width: 960px;
     margin: 0 auto;
     padding: 50px;
+    overflow: auto;
 }
 
 ul {
@@ -114,19 +117,6 @@ footer {
     color: rgb(72, 174, 72);
 }
 
-.profile-cat {
-    height: 300px;
-    border: 2px solid green;
-    border-radius: 30px;
-}
-
-.profile-board {
-    height: 350px;
-    float: inline-end;
-    border: 2px solid green;
-    border-radius: 30px;
-}
-
 .jazyk {
     height: 250px;
     float: right;
@@ -137,9 +127,27 @@ footer {
     height: 400px;
     float: left;
     border-radius: 30px;
+    margin-right: 10px;
 }
 
 .osobni {
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
+}
+
+.galerie {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.profile-board {
+    height: 350px;
+    border: 1px;
+    border-radius: 20px 0 0 20px;
+}
+
+.profile-cat {
+    height: 350px;
+    border: 2px;
+    border-radius: 0 20px 20px 0;
 }
